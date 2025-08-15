@@ -1,6 +1,5 @@
 if SHIELD_DACTYL6X5_LEFT
 
-# Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
     default "dactyl6x5"
 
@@ -9,9 +8,16 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_MY_KEYBOARD_LEFT || SHIELD_MY_KEYBOARD_RIGHT
+if SHIELD_DACTYL6X5_RIGHT
 
-config ZMK_SPLIT
-    default y
+    config ZMK_KEYBOARD_NAME
+        default "TAIKO-DACTYL-R"
+
+endif
+
+if SHIELD_DACTYL6X5_LEFT || SHIELD_DACTYL6X5_RIGHT
+
+    config ZMK_SPLIT
+        default y
 
 endif
