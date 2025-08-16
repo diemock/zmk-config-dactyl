@@ -177,7 +177,7 @@
                      &trans  &trans                                                         &trans      &trans
 
                              &mo ADJ   &trans    &trans         &trans        &trans        &kp KP_DOT
-                                       &trans    &kp LGUI       &kp QUESTION  &kp KP_COMMA
+                                       &trans    &kp LGUI       &unicode 0x003F  &kp KP_COMMA
             >;
         };
 
