@@ -157,14 +157,14 @@
 
         default_layer {
             bindings = <
-            &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3     &kp NUMBER_4  &kp N5          &kp NUMBER_6      &kp N7         &kp N8          &kp N9      &kp N0
-&kp ESC     &kp Q         &kp W              &kp E            &kp R         &kp T           &kp Y             &kp U          &kp I           &kp O       &kp P          &lt FLR LEFT_BRACKET
-&kp TAB     &kp A         &kp S              &kp D            &kp F         &kp G           &kp H             &kp J          &kp K           &kp L       &kp SEMICOLON  &kp SQT
-&kp LSHIFT  &kp Z         &kp X              &kp C            &kp V         &kp B           &kp N             &kp M          &kp COMMA       &kp PERIOD  &kp SLASH      &mt RALT RIGHT_BRACKET
-                          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                                                                 &kp LEFT_ARROW  &kp RIGHT
+            &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3     &kp NUMBER_4  &kp N5          &kp NUMBER_6  &kp N7         &kp N8          &kp N9      &kp N0
+&kp ESC     &kp Q         &kp W              &kp E            &kp R         &kp T           &kp Y         &kp U          &kp I           &kp O       &kp P          &lt FLR LEFT_BRACKET
+&kp TAB     &kp A         &kp S              &kp D            &kp F         &kp G           &kp H         &kp J          &kp K           &kp L       &kp SEMICOLON  &kp SQT
+&kp LSHIFT  &kp Z         &kp X              &kp C            &kp V         &kp B           &kp N         &kp M          &kp COMMA       &kp PERIOD  &kp SLASH      &mt RALT RIGHT_BRACKET
+                          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                                                             &kp LEFT_ARROW  &kp RIGHT
 
-                                             &kp SPACE        &kp LEFT_ALT  &mt LGUI RET    &kp CAPSLOCK      &lt RSE SPACE  &kp ENTER
-                                                              &kp LGUI      &mo 1           &kp LEFT_CONTROL  &kp BACKSPACE
+                                             &kp LCTRL        &kp LEFT_ALT  &kp K_MUTE      &kp CAPSLOCK  &kp DELETE     &kp LEFT_ALT
+                                                              &mo 1         &mt LGUI RET    &lt 2 SPACE   &kp BACKSPACE
             >;
         };
 
@@ -177,7 +177,7 @@
                      &trans  &trans                                                         &trans      &trans
 
                              &mo ADJ   &trans    &trans         &trans        &trans        &kp KP_DOT
-                                       &trans    &trans         &kp QUESTION  &kp KP_COMMA
+                                       &trans    &kp LGUI       &kp QUESTION  &kp KP_COMMA
             >;
         };
 
@@ -189,8 +189,8 @@
 &out OUT_TOG  &trans  &trans     &trans    &trans       &kp F15        &kp F16    &kp F23    &trans    &trans     &trans    &out OUT_TOG
                       &trans     &trans                                                      &trans    &trans
 
-                                 &trans    &kp LG(F11)  &kp LG(F12)    &trans     &trans     &trans
-                                           &trans       &trans         &trans     &trans
+                                 &trans    &trans       &trans         &trans     &trans     &trans
+                                           &kp LG(F11)  &kp LG(F12)    &trans     &trans
             >;
         };
 
