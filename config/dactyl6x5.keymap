@@ -188,7 +188,7 @@
 &out OUT_TOG   &trans     &trans         &trans        &trans        &kp F15           &kp F16       &kp F23       &trans        &trans        &trans       &out OUT_TOG
                            &trans        &trans                                                &trans  &trans
 
-                                   &tran    &kp LG(F11)    &kp LG(F12)    &trans  &trans  &trans
+                                   &trans    &kp LG(F11)    &kp LG(F12)    &trans  &trans  &trans
                                                  &trans    &trans    &trans  &trans
             >;
         };
