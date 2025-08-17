@@ -139,6 +139,7 @@
             bindings = <&kp MINUS>;
             key-positions = <14 13>;
             timeout-ms = <20>;
+            layers = <0>;
         };
 
         PlusSign {
