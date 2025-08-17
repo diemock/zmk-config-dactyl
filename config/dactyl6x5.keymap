@@ -228,7 +228,7 @@
 &kp LBKT  &kp B   &kp Z   &kp X      &kp C         &kp V         &kp N      &kp M     &kp COMMA     &kp DOT          &kp FSLH  &tog 5
                   &kp M   &kp I                                                       &kp C_VOL_DN  &kp C_VOLUME_UP
 
-                          &kp LCTRL  &kp LEFT_ALT  &kp K_MUTE    &trans     &kp DEL   &trans
+                          &kp LCTRL  &kp LEFT_ALT  &kp K_MUTE    &kp CAPS   &kp DEL   &trans
                                      &kp LSHFT     &kp SPACE     &kp ENTER  &kp BSPC
             >;
         };
